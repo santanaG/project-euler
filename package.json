@@ -4,7 +4,9 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "get" : "node main.js",
+    "next": "node main.js next"
   },
   "repository": "https://github.com/santanaG/project-euler.git",
   "author": "santanaG <gs8777@gmail.com>",
@@ -18,5 +20,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.1.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^3.0.0"
   }
 }

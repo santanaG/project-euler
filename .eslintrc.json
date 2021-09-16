@@ -11,6 +11,7 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module",
 		"requireConfigFile": false
-	}
+	},
+	"rules": { "import/first": 0 }
 }
  

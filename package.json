@@ -18,8 +18,5 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.1.1"
-  },
-  "dependencies": {
-    "commander": "^8.2.0"
   }
 }
